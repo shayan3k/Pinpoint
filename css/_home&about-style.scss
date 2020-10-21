@@ -1,0 +1,56 @@
+/* 3. Home & About Styles
+------------------------------------*/
+#home {
+  padding-top: 145px;
+}
+.templatemo-home-left,
+.templatemo-home-right {
+  height: 400px;
+}
+.templatemo-home-left {
+  padding: 0;
+}
+.templatemo-logo {
+  position: absolute;
+  top: 110px;
+  left: 25px;
+}
+.templatemo-site-name,
+.templatemo-slogan {
+  display: block;
+  text-transform: uppercase;
+}
+.templatemo-site-name {
+  font-size: 80px;
+}
+.templatemo-slogan {
+  color: #8e8e8e;
+  font-size: 23px;
+  font-weight: 700;
+
+  padding-left: 15px;
+}
+.templatemo-home-text {
+  margin-bottom: 20px;
+}
+.templatemo-learn-more {
+  border: 1px solid #0db5c0;
+  border-radius: 50px;
+  display: inline-block;
+  padding: 10px 30px;
+  transition: all 0.3s;
+}
+.templatemo-learn-more:hover {
+  background-color: #0db5c0;
+  color: #fff;
+  text-decoration: none;
+}
+.templatemo-about-left,
+.templatemo-about-right {
+  height: auto;
+}
+
+.templatemo-about-list {
+  line-height: 2;
+  margin-left: 30px;
+}

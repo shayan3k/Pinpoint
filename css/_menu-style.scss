@@ -1,0 +1,24 @@
+/* 2. Menu Styles
+--------------------------------------*/
+.templatemo-nav-container {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+}
+.templatemo-nav-container .container {
+  background-image: url("../images/blue-corner.png");
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: auto 145px;
+}
+.templatemo-nav-container.sticky .templatemo-white-bg {
+  background-image: none;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 87%,
+    rgba(255, 255, 255, 0.92) 91%,
+    rgba(229, 229, 229, 0.77) 99%,
+    rgba(229, 229, 229, 0.75) 100%
+  );
+}

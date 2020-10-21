@@ -1,0 +1,201 @@
+/* 7. Media Queries
+--------------------------------------*/
+@media screen and (max-width: 1199px) {
+  .templatemo-nav li > a {
+    padding: 10px 15px;
+  }
+  .templatemo-logo {
+    top: 115px;
+    left: 30px;
+  }
+  .templatemo-products-link {
+    right: 45px;
+  }
+  .templatemo-copyright-text,
+  .templatemo-copyright-design {
+    margin-top: 65px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  h3 {
+    margin-bottom: 15px;
+  }
+  .templatemo-nav {
+    height: 60px;
+    padding-left: 15px;
+    padding-top: 18px;
+  }
+  .templatemo-nav-container .container {
+    background-size: auto 60px;
+  }
+  .templatemo-nav li > a {
+    padding: 10px;
+  }
+  .templatemo-logo {
+    top: 83px;
+    left: 20px;
+  }
+  #home {
+    padding-top: 60px;
+  }
+  .templatemo-home-left,
+  .templatemo-home-right {
+    height: 325px;
+  }
+  .templatemo-home-right {
+    padding: 40px;
+  }
+  .templatemo-home-text {
+    margin-bottom: 10px;
+  }
+  .templatemo-site-name {
+    font-size: 100px;
+  }
+  .templatemo-slogan {
+    letter-spacing: 6px;
+    padding-left: 10px;
+  }
+  .templatemo-about-left,
+  .templatemo-products-left,
+  .templatemo-services {
+    padding: 40px;
+  }
+  .templatemo-about-right {
+    padding-left: 30px;
+    padding-top: 80px;
+  }
+  .templatemo-products-left,
+  .templatemo-products-right {
+    height: 360px;
+  }
+  .templatemo-testimonials-left,
+  .templatemo-testimonials-right {
+    height: 300px;
+  }
+  .templatemo-products-link,
+  .templatemo-testimonials-header {
+    font-size: 30px;
+  }
+  .templatemo-products-link {
+    right: 34px;
+    top: 140px;
+  }
+  .templatemo-red-btn {
+    margin-top: 30px;
+  }
+  .templatemo-red-btn,
+  .templatemo-blue-btn {
+    height: 300px;
+  }
+  .templatemo-testimonials-right {
+    padding-right: 30px;
+    padding-top: 70px;
+  }
+  .templatemo-testimonials-header {
+    top: 90px;
+    left: 21px;
+  }
+  .templatemo-contact {
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  h2 {
+    margin-top: 20px;
+  }
+  .templatemo-nav-container {
+    position: static;
+  }
+  .templatemo-nav-container .container {
+    height: 60px;
+  }
+  #home {
+    padding-top: 0;
+  }
+  .templatemo-home-right {
+    padding-bottom: 50px;
+  }
+  .templatemo-logo {
+    top: 87px;
+    left: 30px;
+  }
+  .templatemo-logo-bg {
+    max-width: 320px;
+  }
+  .templatemo-home-right,
+  .templatemo-products-left,
+  .templatemo-products-right,
+  .templatemo-testimonials-left,
+  .templatemo-testimonials-right {
+    height: auto;
+  }
+  .templatemo-home-left,
+  .templatemo-about-left,
+  .templatemo-about-right {
+    height: auto;
+  }
+  .templatemo-about-right {
+    text-align: center;
+  }
+  .templatemo-about-right img {
+    max-width: 402px;
+    width: 100%;
+    height: auto;
+  }
+  .templatemo-about-left,
+  .templatemo-about-right,
+  .templatemo-products-left,
+  .templatemo-services {
+    padding: 50px 30px;
+  }
+  .templatemo-about-right {
+    padding-top: 0;
+  }
+  .templatemo-red-btn {
+    margin-top: 0;
+  }
+  .templatemo-products-right {
+    padding-top: 40px;
+  }
+  .templatemo-products-link {
+    top: 150px;
+  }
+  .templatemo-testimonials-left {
+    padding-bottom: 40px;
+  }
+  .templatemo-testimonials-right {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 30px;
+  }
+  .templatemo-contact {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  #map-canvas {
+    margin-top: 30px;
+  }
+  .templatemo-copyright-container {
+    float: right;
+    max-width: 325px;
+    width: 100%;
+    margin-top: 68px;
+    margin-right: 10px;
+  }
+  .templatemo-copyright-text,
+  .templatemo-copyright-text a {
+    color: #fff;
+  }
+  .templatemo-copyright-text,
+  .templatemo-copyright-design {
+    display: block;
+    float: none;
+    margin-top: 0;
+    margin-right: 0;
+  }
+  .rtl__container {
+    direction: rtl;
+  }
+}

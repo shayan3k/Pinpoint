@@ -1,0 +1,32 @@
+/* 4. Products Styles
+--------------------------------------*/
+.templatemo-products-left,
+.templatemo-products-right {
+  height: 387px;
+}
+.templatemo-products-left {
+  padding: 40px 80px 30px 80px;
+}
+.templatemo-products-right {
+  background: #fff;
+  padding: 0;
+  overflow: hidden;
+}
+.templatemo-products-link {
+  color: #fff;
+  font-size: 58px;
+  position: absolute;
+  top: 135px;
+  right: 77px;
+  text-align: center;
+}
+.templatemo-products-link:hover {
+  color: #202020;
+  text-decoration: none;
+}
+.templatemo-products-link .first,
+.templatemo-products-link .second,
+.templatemo-testimonials-header .first,
+.templatemo-testimonials-header .second {
+  display: block;
+}

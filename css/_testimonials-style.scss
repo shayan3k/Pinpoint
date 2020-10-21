@@ -1,0 +1,48 @@
+/* 5. Testimonials Styles
+--------------------------------------*/
+.templatemo-testimonials-left,
+.templatemo-testimonials-right {
+  height: 372px;
+}
+.templatemo-testimonials-left {
+  padding-left: 0;
+  padding-right: 0;
+}
+.templatemo-testimonials-right {
+  padding-top: 100px;
+  padding-right: 100px;
+  overflow: hidden;
+}
+.templatemo-testimonials-header {
+  color: rgb(3, 3, 3);
+  position: absolute;
+  top: 122px;
+  left: 109px;
+}
+.templatemo-testimonials-header .second {
+  font-weight: 300;
+}
+.templatemo-testimonial-name {
+  font-size: 18px;
+  text-transform: uppercase;
+}
+.flexslider {
+  border: none;
+  box-shadow: none;
+}
+.flex-control-paging li a {
+  background: none;
+}
+.flex-control-paging li a.flex-active {
+  background: #9b9b9b;
+}
+.fa-quote-left,
+.fa-quote-right {
+  font-size: 20px;
+}
+.fa-quote-left {
+  margin-right: 10px;
+}
+.fa-quote-right {
+  margin-left: 10px;
+}
